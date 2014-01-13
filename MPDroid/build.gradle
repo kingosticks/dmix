@@ -18,7 +18,7 @@ dependencies {
     compile 'com.github.chrisbanes.actionbarpulltorefresh:extra-abc:0.9'
     compile 'asia.ivity.android:drag-sort-listview:1.0'
     compile 'javax.jmdns:jmdns:3.4.1'
-    compile 'com.github.castorflex.smoothprogressbar:library:0.3.X'
+    compile 'com.github.castorflex.smoothprogressbar:library:0.3.1'
 }
 
 android {
@@ -36,5 +36,9 @@ android {
             java.srcDirs = ['src']
             res.srcDirs = ['res']
         }
+    }
+
+    lintOptions {
+        abortOnError false
     }
 }
