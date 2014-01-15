@@ -28,6 +28,7 @@
 .idea/tasks.xml
 .idea/datasources.xml
 .idea/dataSources.ids
+.idea/dictionaries
 /gradlew*
 local.properties
 **/build/
